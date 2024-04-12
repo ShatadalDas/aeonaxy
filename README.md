@@ -1,4 +1,3 @@
 # Aeonaxy Assignment
 
-This project uses **React** and **TailwindCSS**
-# aeonaxy
+This project was made using **React** and **TailwindCSS**
