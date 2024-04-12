@@ -1,4 +1,8 @@
 import "./styles/Footer.css";
+import instagramIcon from "../assets/Icons/IMG_20240412_145116.jpg";
+import youtubeIcon from "../assets/Icons/IMG_20240412_145100.jpg";
+import facebookIcon from "../assets/Icons/IMG_20240412_145051.jpg";
+import twitterIcon from "../assets/Icons/IMG_20240412_145039.jpg";
 
 function Footer() {
   return (
@@ -21,22 +25,22 @@ function Footer() {
       <ul className="social-links">
         <li>
           <a href="https://www.instagram.com">
-            <img src="src/assets/Icons/IMG_20240412_145116.jpg" alt="" />
+            <img src={instagramIcon} alt="" />
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com">
-            <img src="src/assets/Icons/IMG_20240412_145100.jpg" alt="" />
+            <img src={youtubeIcon} alt="" />
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com">
-            <img src="src/assets/Icons/IMG_20240412_145051.jpg" alt="" />
+            <img src={facebookIcon} alt="" />
           </a>
         </li>
         <li>
           <a href="https://www.twitter.com">
-            <img src="src/assets/Icons/IMG_20240412_145039.jpg" alt="" />
+            <img src={twitterIcon} alt="" />
           </a>
         </li>
       </ul>
