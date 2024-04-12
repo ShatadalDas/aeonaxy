@@ -1,0 +1,31 @@
+.footer {
+  @apply relative flex flex-col gap-5 pt-10 after:absolute after:content-[''] after:w-[200vw] after:top-0 after:h-full after:-left-[50vw] after:bg-[#e8e8e8] after:-z-10;
+}
+
+.extra-links {
+  @apply flex w-max gap-4 mx-auto text-[0.9em] mt-8;
+}
+
+.social-links {
+  @apply flex w-max gap-4 mx-auto my-[1em];
+}
+
+.social-links img {
+  @apply h-[2em];
+}
+
+.info-columns {
+  @apply grid grid-cols-3 gap-[3em] my-[3em] text-[0.85em] max-sm:grid-cols-1  max-sm:text-[0.95em];
+}
+
+.info-columns > div {
+  @apply flex flex-col gap-2 text-[#0008];
+}
+
+.info-columns > div h4 {
+  @apply text-[1.2em] text-black;
+}
+
+.info-columns > div a {
+  @apply text-[#e9937b];
+}

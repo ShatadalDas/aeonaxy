@@ -1,0 +1,43 @@
+.header {
+  @apply flex text-[0.9em] justify-between bg-white py-[0.9em] px-[1.2em] tracking-wide;
+}
+
+.header-section {
+  @apply flex items-center gap-3;
+}
+
+.header-logo {
+  @apply h-[1.8em];
+}
+
+.header-heading {
+  @apply text-[0.8em];
+}
+
+.header-nav {
+  @apply flex gap-5;
+}
+
+.header-links {
+  @apply flex gap-2 text-[0.65em] items-center;
+}
+
+.header-links img {
+  @apply h-2.5;
+}
+
+.header-links p {
+  @apply hover:underline;
+}
+
+.header-btn {
+  @apply flex items-center gap-1 px-1.5 py-[0.15rem] rounded-[0.2rem] border-solid border-[1.5px] border-[#ddd9];
+}
+
+.header-btn p {
+  @apply text-[0.65em];
+}
+
+.header-btn img {
+  @apply h-[0.55em];
+}

@@ -1,0 +1,15 @@
+.sidebar ol {
+  @apply flex flex-col gap-2 text-[0.9em] whitespace-nowrap;
+}
+
+.sidebar ol li {
+  @apply p-2 hover:bg-[#f0f0f0] hover:text-[#000a] hover:cursor-pointer flex gap-[0.7em] items-center text-[#0008];
+}
+
+.sidebar ol li.active {
+  @apply bg-[#ececec] text-[#000a];
+}
+
+.sidebar ol li img {
+  @apply h-[1.2em];
+}

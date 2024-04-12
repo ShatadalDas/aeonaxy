@@ -1,0 +1,19 @@
+.main {
+  @apply flex flex-col gap-4 bg-white p-7 text-[0.8em] w-full border-solid border-[1px] border-[#ddd9];
+}
+
+.main h3 {
+  @apply text-[1.2em];
+}
+
+.main ol {
+  @apply flex flex-col gap-2.5;
+}
+
+.main li {
+  @apply flex gap-2 items-start;
+}
+
+.main li img {
+  @apply h-[1em] translate-y-[0.21em];
+}

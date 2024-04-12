@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  @apply box-border;
+}
+
+body {
+  @apply font-reem_kufi_fun bg-[#f5f5f5] overflow-x-hidden text-clamp;
+}

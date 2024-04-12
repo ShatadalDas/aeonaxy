@@ -1,0 +1,15 @@
+:root {
+  --section-gap: 2.5em;
+}
+
+.wrapper {
+  @apply w-11/12 mx-auto max-w-[70rem] pt-[var(--section-gap)];
+}
+
+.wrapper h2 {
+  @apply text-[1.2em] mb-1;
+}
+
+.contents-wrapper {
+  @apply grid grid-flow-col gap-4 my-[var(--section-gap)];
+}

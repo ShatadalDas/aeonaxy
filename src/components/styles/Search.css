@@ -1,0 +1,12 @@
+.search-box {
+  @apply flex items-center gap-3 bg-white px-3 max-w-[50rem] rounded-[0.25em] border-solid border-[1.5px] border-[#ddd9];
+}
+
+.search-box img {
+  @apply h-[0.85em];
+}
+
+.search-box input {
+  all: unset;
+  @apply h-full w-full text-[0.8em] tracking-wide py-2;
+}
