@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-  @apply w-11/12 mx-auto max-w-[70rem] pt-[var(--section-gap)];
+  @apply pt-[var(--section-gap)] max-w-[70rem] w-[95%] mx-auto;
 }
 
 .wrapper h2 {
@@ -11,5 +11,9 @@
 }
 
 .contents-wrapper {
-  @apply grid grid-flow-col gap-4 my-[var(--section-gap)];
+  @apply flex gap-4 my-[var(--section-gap)] max-w-[90rem] mx-auto;
+}
+
+.contents-wrapper > * {
+  @apply flex-shrink-0;
 }

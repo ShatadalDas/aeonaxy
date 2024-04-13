@@ -19,11 +19,11 @@
 }
 
 .header-links {
-  @apply flex gap-2 text-[0.65em] items-center;
+  @apply flex gap-[0.6em] text-[0.65em] items-center;
 }
 
 .header-links img {
-  @apply h-2.5;
+  @apply h-2.5 max-sm:h-1.5;
 }
 
 .header-links p {
